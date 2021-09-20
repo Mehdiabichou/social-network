@@ -1,0 +1,33 @@
+.sidebar {
+  height: 245px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  a {
+    width: 50%;
+    color: rgba(0, 0, 0, 0.67);
+    padding: 12px 0;
+    padding-left: 10px;
+    font-size: 12px;
+    transition: color 0.3s;
+    border: solid 1px transparent;
+    &:hover {
+      color: black;
+      font-weight: bold;
+      border: solid 1px #dbdbdb;
+      border-radius: 3px;
+      background-color: #ffffff;
+    }
+    i {
+      margin-right: 20px;
+    }
+  }
+  .active {
+    color: black;
+    font-weight: bold;
+    border: solid 1px #dbdbdb;
+    border-radius: 3px;
+    background-color: #ffffff;
+  }
+}

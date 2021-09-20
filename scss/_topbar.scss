@@ -1,0 +1,24 @@
+.topbar {
+  color: white;
+  background-color: $bgc-topbar;
+}
+.topbar-logo {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  padding: 11px 0;
+}
+.topbar-nav {
+  text-align: center;
+  padding-bottom: 16px;
+}
+.topbar-nav a {
+  display: inline-block;
+  margin: 0 12px;
+  color: rgba(255, 255, 255, 0.64);
+  transition: color 0.4s;
+}
+.topbar-nav a:hover,
+a.active {
+  color: #fff;
+}

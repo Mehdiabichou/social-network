@@ -1,0 +1,74 @@
+.card {
+  border: solid 1px #dbdbdb;
+  border-radius: 3px;
+  background: #ffffff;
+  margin-bottom: 15px;
+  .card-header {
+    padding-left: 65px;
+  }
+  .card-header-avatar {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .card-avatar {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 10px;
+      border-radius: 50%;
+    }
+  }
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  .card-time {
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 12px;
+  }
+  .card-img {
+    width: 100%;
+    display: block;
+  }
+  //card-body
+
+  .card-body {
+    color: rgba(0, 0, 0, 0.6);
+    font-style: normal;
+    font-weight: normal;
+    padding: 15px 10px;
+    p:first-child {
+      margin-bottom: 10px;
+    }
+  }
+  hr {
+    margin: 0;
+  }
+}
+
+//footer-card
+.footer-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 12px;
+  color: #bdbdbd;
+  background: #fbfbfb;
+  border-top: solid 1px #dbdbdb;
+
+  .card-like::before,
+  .card-comment::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 18px;
+    margin-right: 10px;
+  }
+  .card-like::before {
+    background: url("/img/like.svg");
+  }
+  .card-comment::before {
+    background: url("/img/comment.svg");
+  }
+}
