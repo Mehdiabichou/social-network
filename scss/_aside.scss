@@ -42,7 +42,7 @@
           color: rgba(0, 0, 0, 0.65);
         }
         .ajout-contact {
-          margin-top: 10px;
+          margin-top: 15px;
           font-size: 12px;
           font-weight: 400;
           color: #000000;
@@ -52,6 +52,7 @@
             width: 17px;
             height: 12px;
             background: url("/img/add.svg");
+            transform: translateY(-1px);
             vertical-align: middle;
             margin-right: 10px;
           }
